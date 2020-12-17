@@ -1,0 +1,2 @@
+SELECT * FROM [Production].[Product]
+WHERE COLOR IS NOT NULL
