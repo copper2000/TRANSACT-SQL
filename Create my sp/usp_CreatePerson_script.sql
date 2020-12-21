@@ -23,7 +23,7 @@ CREATE PROCEDURE [dbo].[usp_CreatePerson]
 AS 
 
 INSERT INTO [Person].[Person] (BusinessEntityID, PersonType, NameStyle, Title, FirstName, MiddleName, LastName, EmailPromotion)
-SELECT @BusinessEntityID, @PersonType, @NameStyle, @Title, @FirstName, @MiddleName, @LastName, @EmailPromotion--
+SELECT @BusinessEntityID, @PersonType, @NameStyle, @Title, @FirstName, @MiddleName, @LastName, @EmailPromotion
 GO
 
 
